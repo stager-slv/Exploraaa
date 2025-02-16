@@ -5103,7 +5103,7 @@ let hotels =  [
       }
   ];
 
-// const apiKey = 'AIzaSyDs6nNKrPC2UVZiafB_6xwV7-X5uMvYVU0';
+// const apiKey = '<RAPID_API_KEY>';
 
 // export const getPlaces = async( lat , lng , type ) => {
 
@@ -5128,7 +5128,7 @@ let hotels =  [
     //       tr_longitude: ne.lng
     //     },
     //     headers: {
-    //       'x-rapidapi-key': '16d4e89c4emsh5128086f5f957f6p1bba12jsnb8004c13ac0a',
+    //       'x-rapidapi-key': '<RAPID_API_KEY>',
     //       'x-rapidapi-host': 'travel-advisor.p.rapidapi.com'
     //     }
     //   };
@@ -5167,7 +5167,7 @@ export const getPlaces = async( lat , lng , type ) => {
           limit: '10'
         },
         headers: {
-          'x-rapidapi-key': 'b37ff36e97msh2b08e17d171d180p1ff38cjsn84abff636250',
+          'x-rapidapi-key': '<RAPI_API_KEY>',
           'x-rapidapi-host': 'travel-advisor.p.rapidapi.com'
         }
       };
