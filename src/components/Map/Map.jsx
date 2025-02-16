@@ -49,7 +49,7 @@ const Map = ({ coordinates, setCoordinates , places  , setClicked_idx  }) => {
 
     return (
          <div className={classes.mapContainer}>
-                 <LoadScript googleMapsApiKey="AIzaSyDs6nNKrPC2UVZiafB_6xwV7-X5uMvYVU0"  libraries={['places']}>
+                 <LoadScript googleMapsApiKey="<API_KEY>"  libraries={['places']}>
                     
                     <Box sx={{
                         display: 'flex', 
@@ -125,7 +125,7 @@ const Map = ({ coordinates, setCoordinates , places  , setClicked_idx  }) => {
 
       //   <div className={classes.mapContainer}>
     //     <GoogleMapReact
-    //       bootstrapURLKeys={{ key: 'AIzaSyDs6nNKrPC2UVZiafB_6xwV7-X5uMvYVU0' }}
+    //       bootstrapURLKeys={{ key: '<API_KEY>' }}
     //       defaultCenter={coordinates}
     //       center={coordinates}
     //       defaultZoom={14}
